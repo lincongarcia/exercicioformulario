@@ -1,0 +1,184 @@
+* {
+    font-family: arial;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.topheader .container1 {
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    background-color: black;
+}
+
+.topheader .menuleft {
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.topheader .menuright {
+    display: flex;
+}
+
+.topheader input {
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.topheader nav ul,
+nav li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.topheader nav {
+    margin-top: 10px;
+}
+
+.topheader nav ul {
+    display: flex;
+}
+
+.topheader nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #727272;
+}
+
+.topheader .search {
+    justify-content: center;
+    padding: 15px;
+}
+
+.menuaside {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(155, 154, 154);
+    width: 16%;
+    height: 500px;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+.textmenu1,
+.textmenu2,
+.textmenu3 {
+    padding: 20px;
+}
+
+.textmenu1:hover,
+.textmenu2:hover,
+.textmenu3:hover {
+    background-color: black;
+}
+
+.textmenu2 {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.bar {
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+}
+
+.formheader .tittle {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtittle {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.formheader {
+    width: 100%;
+}
+
+.textform {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 30px;
+
+}
+
+.dadosalunoleftside {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+
+
+}
+
+.twotexts {
+    display: flex;
+}
+
+.twotexts input {
+    margin-top: 30px;
+    margin-left: 6px;
+}
+
+.formheader input {
+    border-radius: 5px;
+}
+
+.dadosalunoleftside .prontuario {
+    width: 200px;
+}
+
+.dadosalunoleftside .sexo {
+    width: 80px;
+}
+
+.dadosalunoleftside .data {
+    width: 130px;
+}
+
+.dadosalunoleftside .nome {
+    width: 380px;
+}
+
+.dadosalunorightside {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+.forms {
+    display: flex;
+}
+
+@media(max-width:1359px) {
+    .formheader {
+        width: 50%;
+
+    }
+
+    .dadosalunoleftside .nome {
+        width: 80px;
+    }
+}

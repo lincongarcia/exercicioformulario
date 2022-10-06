@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable= 0">
+    <title>Sistema de Controle Acadêmico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="topheader">
+        <div class="container1">
+            <div class="menuleft">
+                SCA - Sistema de Controle Acadêmico
+            </div>
+            <div class="menuright">
+                <form class="search">
+                    <input type="text" placeholder="Pesquisar...">
+                </form>
+                <nav class="up">
+                    <ul>
+                        <li><a href="">Configurações </a></li>
+                        <li><a href="">Perfil</a></li>
+                        <li><a href="">Ajuda</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+
+        <nav class="menuaside">
+            <div class="textmenu1"> <a href="">Início </div></a>
+            <div class="textmenu2"> <a href="">Formulário </div></a>
+            <div class="textmenu3"> <a href="">Contato </div></a>
+        </nav>
+
+
+        <header class="formheader">
+            <div class="tittle">Cadastro de alunos</div>
+            <div class="bar"></div>
+            <div class="subtittle">Dados do aluno</div>
+            <div class="bar"></div>
+
+            <div class="forms">
+                <form class="dadosalunoleftside">
+                    <div class="textform"> Prontuário: <input class="prontuario" type="text"></div>
+                    <div class="textform"> Nome: <input class="nome" type="text"></div>
+                    <div class="twotexts">
+                        <div class="textform"> Data Nascimento: </div>
+                        <div> <input class="data" type="date"> </div>
+                        <div class="textform"> Sexo: </div>
+                        <div> <input class="sexo" list="sexo"> <datalist id="sexo">
+                                <option value="Masculino">
+                                <option value="Feminino"></option>
+                                </option>
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="textform"> Curso: <input type="text"></div>
+                </form>
+
+                <form class="dadosalunorightside">
+
+                    <div class="twotexts">
+                        <div class="textform"> CPF: </div>
+                        <div> <input class="prontuario" type="text"> </div>
+                        <div class="textform"> RG: </div>
+                        <div> <input class="prontuario" type="text"> </div>
+                    </div>
+                    <div class="twotexts">
+                        <div class="textform"> Telefone: </div>
+                        <div> <input class="prontuario" type="text"> </div>
+                        <div class="textform"> Celular: </div>
+                        <div> <input class="prontuario" type="text"> </div>
+                    </div>
+                    <div class="textform"> E-mail: <input type="text"></div>
+                </form>
+            </div>
+
+            <div class="subtittle">Dados do responsável</div>
+            <div class="bar"></div>
+
+            <div class="forms">
+                <form class="dadosalunoleftside">
+                    <div class="textform"> Nome: <input class="nome" type="text"></div>
+                    <div class="textform"> E-mail: <input type="text"></div>
+                </form>
+
+                <form class="dadosalunorightside">
+
+                    <div class="twotexts">
+                        <div class="textform"> CPF: </div>
+                        <div> <input class="prontuario" type="text"> </div>
+                        <div class="textform"> RG: </div>
+                        <div> <input class="prontuario" type="text"> </div>
+                    </div>
+                    <div class="twotexts">
+                        <div class="textform"> Data Nascimento:
+                        </div>
+                        <div> <input class="data" type="date"> </div>
+                        <div class="textform"> Celular: </div>
+                        <div> <input class="prontuario" type="text"> </div>
+                    </div>
+
+                </form>
+            </div>
+
+
+        </header>
+
+    </section>
+
+
+
+</body>
+
+</html>
